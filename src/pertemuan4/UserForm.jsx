@@ -1,0 +1,35 @@
+import InputField from './components/InputField.jsx'; 
+
+export default function UserForm() {
+  return (
+    <div className="flex flex-col items-center justify-center m-5 p-5 bg-gray-100">
+      <div className="bg-white p-6 rounded-lg shadow-lg w-96">
+        <h2 className="text-2xl font-semibold text-center mb-4">Tambah User</h2>
+        
+        {/* 2. Ganti blok Nama */}
+        <InputField 
+          label="Nama" 
+          type="text" 
+          placeholder="Masukkan Nama" 
+        />
+
+        {/* 3. Ganti blok Email */}
+        <InputField 
+          label="Email" 
+          type="email" 
+          placeholder="Masukkan Email" 
+        />
+
+        {/* 4. Ganti blok Tanggal Lahir */}
+        <InputField 
+          label="Tanggal Lahir" 
+          type="date" 
+        />
+
+        <button className="w-full bg-green-500 text-white p-2 rounded mt-4">
+          Simpan
+        </button>
+      </div>
+    </div>
+  );
+}
