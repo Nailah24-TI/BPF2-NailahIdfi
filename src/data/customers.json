@@ -1,0 +1,17 @@
+[
+  { "id": "CUST001", "name": "Andi Saputra", "email": "andi@mail.com", "phone": "081234567001", "loyalty": "Gold" },
+  { "id": "CUST002", "name": "Siti Rahma", "email": "siti@mail.com", "phone": "081234567002", "loyalty": "Silver" },
+  { "id": "CUST003", "name": "Budi Santoso", "email": "budi@mail.com", "phone": "081234567003", "loyalty": "Bronze" },
+  { "id": "CUST004", "name": "Dewi Lestari", "email": "dewi@mail.com", "phone": "081234567004", "loyalty": "Gold" },
+  { "id": "CUST005", "name": "Rizky Pratama", "email": "rizky@mail.com", "phone": "081234567005", "loyalty": "Silver" },
+  { "id": "CUST006", "name": "Putri Ayu", "email": "putri@mail.com", "phone": "081234567006", "loyalty": "Gold" },
+  { "id": "CUST007", "name": "Fajar Nugraha", "email": "fajar@mail.com", "phone": "081234567007", "loyalty": "Bronze" },
+  { "id": "CUST008", "name": "Nina Marlina", "email": "nina@mail.com", "phone": "081234567008", "loyalty": "Silver" },
+  { "id": "CUST009", "name": "Agus Salim", "email": "agus@mail.com", "phone": "081234567009", "loyalty": "Gold" },
+  { "id": "CUST010", "name": "Tina Wijaya", "email": "tina@mail.com", "phone": "081234567010", "loyalty": "Bronze" },
+  { "id": "CUST011", "name": "Yusuf Maulana", "email": "yusuf@mail.com", "phone": "081234567011", "loyalty": "Silver" },
+  { "id": "CUST012", "name": "Rina Sari", "email": "rina@mail.com", "phone": "081234567012", "loyalty": "Gold" },
+  { "id": "CUST013", "name": "Dimas Kurniawan", "email": "dimas@mail.com", "phone": "081234567013", "loyalty": "Bronze" },
+  { "id": "CUST014", "name": "Lina Handayani", "email": "lina@mail.com", "phone": "081234567014", "loyalty": "Silver" },
+  { "id": "CUST015", "name": "Hendra Gunawan", "email": "hendra@mail.com", "phone": "081234567015", "loyalty": "Gold" }
+]
