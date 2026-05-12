@@ -1,7 +1,8 @@
-import { CgProfile } from "react-icons/cg";
-import { BsCardChecklist } from "react-icons/bs";
-import { MdDashboard } from "react-icons/md";
+import { FaUser } from "react-icons/fa";
+import { AiFillShopping } from "react-icons/ai";
+import { MdSpaceDashboard } from "react-icons/md";
 import { Link, NavLink } from "react-router-dom";
+
 export default function Sidebar() {
 
   const menuClass = ({ isActive }) =>
@@ -11,6 +12,7 @@ export default function Sidebar() {
             ? "text-hijau bg-green-200 font-extrabold"
             : "text-gray-600 hover:text-hijau hover:bg-green-200 hover:font-extrabold"
         }`;
+        
   return (
     <div
       id="sidebar"
@@ -41,27 +43,27 @@ export default function Sidebar() {
               to="/"
               className={menuClass}
             >
-              <MdDashboard className="mr-4 text-xl" />
+              <MdSpaceDashboard className="mr-4 text-xl" />
               Dashboard
             </NavLink>
           </li>
           <li>
             <NavLink
               id="menu-2"
-              to="/orders"
+              to="/Orders"
               className={menuClass}
             >
-              <BsCardChecklist className="mr-4 text-xl" />
+              <AiFillShopping className="mr-4 text-xl" />
               Orders
             </NavLink>
           </li>
           <li>
             <NavLink
               id="menu-3"
-              to="/customers"
+              to="/Customers"
               className={menuClass}
             >
-              <CgProfile className="mr-4 text-xl" />
+              <FaUser className="mr-4 text-xl" />
               Customers
             </NavLink>
           </li>
