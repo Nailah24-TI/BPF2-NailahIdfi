@@ -11,7 +11,8 @@ import LandingPage from "./pages/LandingPage";
 import Login from "./pages/Auth/Login";
 import Register from "./pages/Auth/Register";
 import Forgot from "./pages/Auth/Forgot";
-
+import Products from "./pages/Products";
+import ProductDetail from "./pages/ProductDetail";
 const Loading = () => <div className="p-5">Loading</div>;
 
 export default function App() {
@@ -23,6 +24,8 @@ export default function App() {
           <Route path="orders" element={<Orders />} />
           <Route path="customers" element={<Customers />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="products" element={<Products />} />
+          <Route path="/products/:id" element={<ProductDetail />} /> 
         </Route>
 
         <Route element={<AuthLayout />}>

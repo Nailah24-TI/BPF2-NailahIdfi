@@ -54,7 +54,7 @@ export default function Login() {
                     JSON.stringify(response.data)
                 );
 
-                navigate("/");
+                navigate("/dashboard");
             }
         })
         .catch((err) => {
