@@ -78,6 +78,16 @@ export default function Sidebar() {
             Products
     </NavLink>
 </li>
+ <li>
+    <NavLink
+            id="menu-5"
+            to="/notes"
+            className={menuClass}
+        >
+            <MdFastfood className="mr-4 text-xl" />
+            Notes
+    </NavLink>
+</li>
         </ul>
       </div>
 
